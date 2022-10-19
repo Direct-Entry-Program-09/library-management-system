@@ -1,0 +1,45 @@
+#top h1{
+    display: inline-block;
+    padding: 0 10px;
+    
+    
+}
+#top{
+    // display: flex;
+    font-size: medium;
+    // text-align: center;
+    
+    
+
+    
+
+}
+.table{
+    th:first-child,
+    tbody td:first-child{
+        width: 75px;
+        // text-align: center;
+    }
+}
+.table{
+    th:nth-child(2),
+    tbody td:nth-child(2){
+        width: 250px;
+        text-align: left;
+    }
+}
+.table{
+    th:nth-child(4),
+    tbody td:nth-child(4){
+        width: 150px;
+        text-align: right;
+    }
+}
+header{
+    background-color: cyan;
+}
+#top ion-icon{
+    font-size: 2rem;
+    padding: 10px;
+    
+}
