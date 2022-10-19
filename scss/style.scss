@@ -1,0 +1,85 @@
+// h3{
+    
+// }
+// body{
+//     display: flex;
+//     flex-direction: column;
+    
+// }
+// nav{
+//     // display: flex;
+//     flex-direction: row;
+//     // background-color: cyan;
+//     height: 300px;
+//     width: 80%;
+//     align-self: center;
+//     text-align: center;
+//     justify-content: space-around;
+    
+    
+    
+// }
+// // li{
+
+// //     border: 1px solid rgb(20, 20, 20);
+// //     display: flex;
+// //     align-items: center;
+// //     flex-direction: column;
+// //     justify-content: center;
+// //     text-decoration: none;
+// //     justify-content: space-around;
+// //     background-color: cyan;
+// //     padding: 5px 6px;
+    
+
+
+
+// // }
+h3{
+    color: black;
+}
+
+.row>li{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(74, 175, 179);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+}
+ion-icon{
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+}
+.row>li:hover .overlay{
+    cursor: pointer;
+    visibility: visible;
+    
+}
+
+.overlay{
+    background-color: cyan;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 300px;
+}
